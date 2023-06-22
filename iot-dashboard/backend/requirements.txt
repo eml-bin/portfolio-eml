@@ -1,0 +1,28 @@
+asgiref
+certifi
+chardet
+coreapi
+coreschema
+Django==3.2.15
+django-cors-headers
+# django-pyodbc-azure.0
+djangorestframework
+djangorestframework-simplejwt
+idna
+Jinja2
+MarkupSafe
+mysqlclient==2.1.1
+numpy
+packaging
+PyJWT
+pyodbc
+pyparsing
+python-dateutil
+python-decouple==3.4
+rest-pandas
+six
+sqlparse
+# typing-extensions.0
+uritemplate
+urllib3==1.22
+xlwt
