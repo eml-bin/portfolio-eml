@@ -1,7 +1,7 @@
 # SQL Server Edge
 Database Module  
 
-:orange_circle: **Project:** CV Inspections System   
+:orange_circle: **Project:** CV Inspections System  
 :yellow_circle: **Detail:**  
   This module performs a embedded lightweight database for an edge hardware, in this case we needed to use SQL Edge image of Microsoft.
 
