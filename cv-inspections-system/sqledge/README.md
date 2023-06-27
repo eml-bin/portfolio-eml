@@ -5,8 +5,8 @@
   
 ### :scroll: My Activities
 > * Investigate about SQL Edge product
-* Read the documentation for the set up 
-* Configure and create the necessary files for the module/service  
+> * Read the documentation for the set up 
+> * Configure and create the necessary files for the module/service  
 
 :eight_spoked_asterisk: **Notes:**  
 - `azure-pipelines.yml`: is a representation of a CI/CD pipeline for Azure DevOps.
