@@ -1,0 +1,24 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- cv
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: docker login $(acr_host) -u $(acr_u) -p $(acr_p)
+  displayName: 'Login to ACR'
+
+- script: docker build -f Dockerfile.amd64 -t $(acr_host)/amd64/cv/sqledge:$(acr_version_cv) .
+  displayName: 'Building Module: SQL Server Edge (AMD64)'
+
+- script: | 
+    docker push $(acr_host)/amd64/cv/sqledge:$(acr_version_cv)
+    echo 'codex: $(codex)'
+    echo 'Done ✅, Module-Version:$(acr_version_cv) '
+  displayName: 'Push new version to ACR'
+

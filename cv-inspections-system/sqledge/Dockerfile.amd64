@@ -1,0 +1,22 @@
+FROM mcr.microsoft.com/azure-sql-edge:latest
+
+USER root
+
+RUN apt-get update -y \
+    && apt-get install -y dos2unix
+
+RUN mkdir -p /usr/work
+WORKDIR /usr/work
+
+COPY . /usr/work/
+
+EXPOSE 1433
+
+RUN dos2unix /usr/work/startup.sh
+RUN chmod u+x /usr/work/startup.sh
+RUN dos2unix /usr/work/entrypoint.sh
+RUN chmod u+x /usr/work/entrypoint.sh
+
+# CMD /opt/mssql/bin/sqlservr
+
+CMD /bin/bash ./entrypoint.sh
