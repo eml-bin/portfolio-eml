@@ -1,11 +1,12 @@
-# SQL Server Edge
-  
-### :package: Package Characteristics
+# SQL Server Edge :package:
+
 :orange_circle: **Main Project:** CV Inspections System <br/>
 :yellow_circle: **Module/Service Detail:** This module performs a embedded lightweight database for an edge hardware, in this case we needed to use SQL Edge image of Microsoft.
   
 ### :scroll: My Activities
->  * Investigate about SQL Edge product <br/> * Read the documentation for the set up <br/> * Configure and create the necessary files for the module/service  
+> * Investigate about SQL Edge product
+* Read the documentation for the set up 
+* Configure and create the necessary files for the module/service  
 
 :eight_spoked_asterisk: **Notes:**  
 - `azure-pipelines.yml`: is a representation of a CI/CD pipeline for Azure DevOps.
