@@ -5,7 +5,7 @@ Database Module
 :yellow_circle: **Detail:**  
   This module performs a embedded lightweight database for an edge hardware, in this case we needed to use SQL Edge image of Microsoft.  
   
-> :scroll: **My activities here:** <br/> Investigate about SQL Edge product, read the documentation for the set up, configure and create the necessary files for the module/service  
+> :scroll: **My activities here:** <br/> * Investigate about SQL Edge product * Read the documentation for the set up * configure and create the necessary files for the module/service  
 
 :eight_spoked_asterisk: **Notes:**  
 - `azure-pipelines.yml`: is a representation of a CI/CD pipeline for Azure DevOps.
