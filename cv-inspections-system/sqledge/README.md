@@ -1,9 +1,9 @@
 # SQL Server Edge
-SQL Edge Database Module
+Database Module  
 
-Project: CV Inspections System
-Detail: 
-  This module performs a embedded lightweight database for an edge hardware.
+Project: CV Inspections System  
+Detail:  
+  This module performs a embedded lightweight database for an edge hardware, in this case we needed to use SQL Edge image of Microsoft.
 
 Notes:
     * `azure-pipelines.yml` is a representation of a CI/CD pipeline for Azure DevOps.
