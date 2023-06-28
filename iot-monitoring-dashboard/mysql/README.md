@@ -1,4 +1,4 @@
-# MySQL Module
+# MySQL
 
 ### :package: Specifications
 - :orange_circle: Main Project: IoT Monitoring Dashboard
@@ -7,10 +7,11 @@
 ***
 
 ### :scroll: My Activities
+> List of my activities in this code
 > * Read documentation for set up 
 > * Configure and create the necessary files for the module/service  
 
 ### :eight_spoked_asterisk: Notes
-- `init.sh`: script service for run setup.sql when SQL Edge is ready
+- `init.sh`: Shell script service for run setup.sql when SQL Edge is ready
 
 
