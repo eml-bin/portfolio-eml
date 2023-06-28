@@ -2,7 +2,7 @@
 
 ### :package: Specifications
 - :orange_circle: Main Project: CV Inspections System
-- :yellow_circle: Service Detail: This module performs a embedded lightweight database for an edge hardware, in this case we needed to use SQL Edge image of Microsoft.
+- :yellow_circle: Service Detail: Performs an embedded lightweight database for an edge hardware, in this case we needed to use SQL Edge image of Microsoft.
 
 ***
 
