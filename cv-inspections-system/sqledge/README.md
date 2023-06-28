@@ -7,6 +7,7 @@
 ***
 
 ### :scroll: My Activities
+> List of my activities in this code
 > * Investigate about SQL Edge product
 > * Read the documentation for the set up 
 > * Configure and create the necessary files for the module/service  
