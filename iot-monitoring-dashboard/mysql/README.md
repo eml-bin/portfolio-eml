@@ -7,7 +7,7 @@
 ***
 
 ### :scroll: My Activities
-> List of my activities in this code
+> List of my activities in this service
 > * Read documentation for set up 
 > * Configure and create the necessary files for the module/service  
 
