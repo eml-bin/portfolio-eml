@@ -9,7 +9,7 @@
 ### :scroll: My Activities
 > List of my activities in this service
 > * Read documentation for set up 
-> * Configure and create the necessary files for the module/service  
+> * Create necessary files for configure and deploy module/service  
 
 ### :eight_spoked_asterisk: Notes
 - `mosquitto.conf`: Service file for custom configuration
