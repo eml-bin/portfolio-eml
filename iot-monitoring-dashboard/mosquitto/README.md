@@ -2,7 +2,7 @@
 
 ### :package: Specifications
 - :orange_circle: Main Project: IoT Monitoring Dashboard
-- :yellow_circle: Module/Service Detail: This module performs a MQTT Broker service necessary for IoT Team
+- :yellow_circle: Service Detail: This module performs a MQTT Broker service necessary for IoT Team
 
 ***
 

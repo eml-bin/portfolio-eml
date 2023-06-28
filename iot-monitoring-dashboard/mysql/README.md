@@ -2,7 +2,7 @@
 
 ### :package: Specifications
 - :orange_circle: Main Project: IoT Monitoring Dashboard
-- :yellow_circle: Module/Service Detail: This module performs a relational database instance, in this case we needed to use the official MySQL image.
+- :yellow_circle: Service Detail: This module performs a relational database instance, in this case we needed to use the official MySQL image.
 
 ***
 
