@@ -1,5 +1,6 @@
 # SQL Server Edge :package:
 
+### :computer: Specifications
 :orange_circle: **Main Project:** CV Inspections System <br/>
 :yellow_circle: **Module/Service Detail:** This module performs a embedded lightweight database for an edge hardware, in this case we needed to use SQL Edge image of Microsoft.
   
