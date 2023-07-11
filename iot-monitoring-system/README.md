@@ -17,7 +17,7 @@ Each service is encapsulated within a container. You can find more details about
 ### :exclamation: Requirements
 - Make sure Docker & Docker Compose is installed on your system. You can download Docker from the official website: [https://www.docker.com](https://www.docker.com).
 
-### Steps :notebook_with_decorative_cover:
+### :notebook_with_decorative_cover: Steps
 
 1. Navigate to the project folder
 ```
