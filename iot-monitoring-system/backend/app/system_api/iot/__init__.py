@@ -1,0 +1,1 @@
+from .tag.model import SensorTag
