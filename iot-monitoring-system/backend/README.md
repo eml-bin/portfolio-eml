@@ -2,7 +2,7 @@
 
 ### :package: Specifications
 - :orange_circle: Main Project: IoT Monitoring System
-- :yellow_circle: Service Detail: Performs an API REST service, necessary for IoT Modules, like retrieve alarms configurations for example and Dashboard end-user actions/authentication
+- :yellow_circle: Service Detail: Performs as RESTful API service, necessary for IoT Modules, like retrieve alarms configurations for example and Dashboard end-user actions/authentication
 
 ***
 
@@ -14,6 +14,10 @@
 > * Create necessary files for configure and deploy module/service  
 
 ### :eight_spoked_asterisk: Notes
-- In this demo I dont include all the business rules like alarms configurations, metrics, notifications only the necessary for monitoring in real-time.
+- In this service I don't include all the business rules and database entities like alarms configurations, metrics, notifications only the necessary for monitoring in real-time for demonstration.
+- This service runs in port `:5000`, you can visit [http://localhost:5000/api/v1/swagger](http://localhost:5000/api/v1/swagger) if you want to visualize more details about endpoints with Swagger UI
+- When this service is running correctly you can get access token with login endpoint using the demonstration user:
+    - email: demo@mail.com
+    - pwd: Demo1234
 
 
