@@ -31,7 +31,7 @@ docker compose -f docker-compose.demo.yml up --build
 
 3. Services running table
 
-| Service :ice_cube: | Container_ID :id: | Port 🖧 |
+| :ice_cube: Service | :id: Container_ID | 🖧 Port |
 | --- | --- | --- |
 | RESTful API  | iot_monitoring_api | :5000
 | MySQL Instance  | iot_monitoring_mqtt  | :3306
