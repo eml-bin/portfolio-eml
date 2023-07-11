@@ -1,7 +1,8 @@
 # IoT Monitoring System :computer:
 
 ### :package: Specifications
-- :yellow_circle: Project Detail: This system was thinked for using as a tool for monitoring remotely industrial machines by them variables like (temperatures, currents, etc.), this version it's only a demonstration and contains some modules for simulate monitoring. 
+- :yellow_circle: System Detail <br/> 
+This system was thinked for using as a tool for monitoring remotely industrial machines by them variables like (temperatures, currents, etc.), this version it's only a demonstration and contains some modules for simulate monitoring. 
 
 Each service is encapsulated within a container. You can find more details about each service and my activities done for each service in the following table
 
