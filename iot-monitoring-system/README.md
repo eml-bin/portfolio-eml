@@ -36,7 +36,3 @@ docker compose -f docker-compose.demo.yml up --build
 | RESTful API  | iot_monitoring_api | :5000
 | MySQL Instance  | iot_monitoring_mqtt  | :3306
 | Mosquitto Instance  | iot_monitoring_mysql | :1883, :9001
-
-iot_monitoring_api
-iot_monitoring_mqtt
-iot_monitoring_mysql
