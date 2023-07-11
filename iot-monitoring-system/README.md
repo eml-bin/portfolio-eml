@@ -26,6 +26,6 @@ cd iot-monitoring-system
 
 2. Run/Build the docker compose file
 ```
-docker compose -f docker-compose.dev.yml up --build
+docker compose -f docker-compose.demo.yml up --build
 ```
 
