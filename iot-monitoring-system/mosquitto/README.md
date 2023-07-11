@@ -11,7 +11,4 @@
 > * Read documentation for set up 
 > * Create necessary files for configure and deploy module/service  
 
-### :eight_spoked_asterisk: Notes
-- `mosquitto.conf`: Service file for custom configuration
-
 
