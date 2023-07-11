@@ -11,7 +11,4 @@
 > * Read documentation for set up 
 > * Create necessary files for configure and deploy module/service  
 
-### :eight_spoked_asterisk: Notes
-- `init.sh`: Shell script service for run setup.sql when SQL Edge is ready
-
 
