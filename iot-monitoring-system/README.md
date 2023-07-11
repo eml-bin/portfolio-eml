@@ -29,3 +29,10 @@ cd iot-monitoring-system
 docker compose -f docker-compose.demo.yml up --build
 ```
 
+3. Services running table
+
+| Service :ice_cube: | Container_ID :id: | Port 🖧 |
+| --- | --- | --- |
+| RESTful API  | [backend/README 📄](backend/README.md) | :5000
+| MySQL Instance  | [mysql/README 📄](mysql/README.md) | :3306
+| Mosquitto Instance  | [mosquitto/README 📄](mosquitto/README.md) | :1883, :9001
