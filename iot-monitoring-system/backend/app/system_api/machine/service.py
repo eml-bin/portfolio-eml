@@ -12,6 +12,9 @@ class MachineService():
 
     @token_required
     def get_all(self):
+        """
+        Get all Industrial Machines
+        """
         machines = Machine.query.all()
         data = marshal(machines, machine_model)
 

@@ -6,7 +6,7 @@ from app.utils.datetime import utc_now
 
 class Blacklist(db.Model):
     """
-    System User (System Model)
+    Token Blacklist (System Model)
     """
     
     __tablename__ = "system_blacklist"

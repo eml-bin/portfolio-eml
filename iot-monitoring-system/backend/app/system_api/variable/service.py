@@ -14,8 +14,10 @@ class VariableService():
 
     @token_required
     def get_all(self, machine_tag: str):
+        """
+        Get all variables of Industrial Machine
+        """
         variables = Variable.query.join(SensorTag, SensorTag.name == machine_tag).all()
-        # variables = Variable.query.all()
         data = marshal(variables, variable_model)
 
         response = ApiResponse(

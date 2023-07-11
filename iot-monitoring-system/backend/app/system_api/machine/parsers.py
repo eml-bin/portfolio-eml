@@ -1,5 +1,5 @@
 from flask_restx import Model
-from flask_restx.fields import String, Nested
+from flask_restx.fields import String
 
 from app.utils.aux_functions import list_model
 
@@ -12,10 +12,3 @@ machine_model = Model(
 )
 
 machine_list = list_model(machine_model, "MachineList")
-
-# machine_list = Model(
-#     "MachineList",
-#     {
-#         "data": Nested(machine_model)
-#     }
-# )
