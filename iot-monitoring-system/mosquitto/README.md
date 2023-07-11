@@ -1,4 +1,4 @@
-# Mosquitto
+# Mosquitto :ice_cube:
 
 ### :package: Specifications
 - :orange_circle: Main Project: IoT Monitoring System
